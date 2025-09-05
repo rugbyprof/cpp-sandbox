@@ -1,0 +1,16 @@
+{
+  "name": "C++ Classroom",
+  "image": "mcr.microsoft.com/devcontainers/cpp:bullseye",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "g++ -v",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools"
+      ]
+    }
+  }
+}
